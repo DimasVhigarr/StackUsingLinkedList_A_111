@@ -25,6 +25,14 @@ namespace StackUsingLinkedList
         {
             top = null;
         }
+
+        bool empty()
+            {
+            if(top == null)
+                return (true);
+            else
+                return (false);
+        }
     }
     internal class Program
     {
