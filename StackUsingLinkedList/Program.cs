@@ -13,7 +13,7 @@ namespace StackUsingLinkedList
         public Node(int i, Node n)
         {
             info = i;
-            next + n;
+            next = n;
         }
     }
     internal class Program
