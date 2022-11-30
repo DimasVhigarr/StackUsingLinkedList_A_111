@@ -64,11 +64,21 @@ namespace StackUsingLinkedList
                 Console.WriteLine();
             }
         }
-    }
-    internal class Program
-    {
         static void Main(string[] args)
         {
+            Stacks s = new Stacks();
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n***Stack Menu***\n");
+                Console.WriteLine("1. Push ");
+                Console.WriteLine("2. Pop ");
+                Console.WriteLine("3. Display ");
+                Console.WriteLine("4. Exit ");
+                Console.WriteLine("\nEnter Your Choice: ");
+                string sInput = Console.ReadLine();
+                char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
+            }
         }
     }
 }
